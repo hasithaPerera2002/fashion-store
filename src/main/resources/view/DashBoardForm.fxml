@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="759.0" prefWidth="910.0" stylesheets="@../styleSheets/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+    <children>
+        <LineChart fx:id="chartSales" layoutX="51.0" layoutY="278.0" prefHeight="478.0" prefWidth="801.0">
+            <xAxis>
+                <CategoryAxis side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <Label fx:id="lblProfit" alignment="CENTER" layoutX="79.0" layoutY="64.0" prefHeight="149.0" prefWidth="199.0" style="-fx-background-color: rgb(29, 53, 87);" stylesheets="@../styleSheets/style.css" text="Total Sales" textFill="#f1faee">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="lblMostSell" alignment="CENTER" layoutX="377.0" layoutY="64.0" prefHeight="149.0" prefWidth="199.0" style="-fx-background-color: rgb(29, 53, 87);" stylesheets="@../styleSheets/style.css" text="Total Profit" textFill="#f1faee">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+        <Label fx:id="lblSales" alignment="CENTER" layoutX="660.0" layoutY="64.0" prefHeight="149.0" prefWidth="199.0" style="-fx-background-color: rgb(29, 53, 87);" stylesheets="@../styleSheets/style.css" text="Out of Stocks" textFill="#f1faee">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Label>
+    </children>
+</AnchorPane>

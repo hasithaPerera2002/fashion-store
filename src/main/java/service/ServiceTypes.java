@@ -1,0 +1,5 @@
+package service;
+
+public enum ServiceTypes {
+    CUSTOMER_SERVICE,ORDER_SERVICE,STOCK_SERVICE,ORDER_STOCK,ORDER_DETAILS_SERVICE
+}
